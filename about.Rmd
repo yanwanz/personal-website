@@ -1,0 +1,11 @@
+---
+title: "About me"
+description: |
+  Some additional details about the website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Hi! I am currently a 1st year PhD student at Brown CLPS. Before coming to Brown, I was an undergraduate at Smith College majoring in Linguistics and Statistical & Data Sciences. While working with Prof. Jill de Villiers at Smith, I developed interest in studying the relationship between language and thought. I'm interested in understanding how children and adults represent - or learn to represent - complex meanings of linguistic constructions in their mind. 
