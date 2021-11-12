@@ -1,0 +1,21 @@
+---
+title: "Miscellaneous"
+description: Things I do/did when I'm not thinking about research
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Music
+**An album that I really enjoy**:   
+*Purple Snow: Forecasting The Minneapolis Sound* ([ Spotify](https://open.spotify.com/album/2K3fMtFPxmlSF6FvUFbAVW))
+
+```{r echo = FALSE}
+knitr::include_url("https://purplesnow.bandcamp.com/album/purple-snow-forecasting-the-minneapolis-sound")
+```
+
+### Archive of non-research projects
+
+**Final project for EAL 273**: [A wiki-style article on women and video gaming in South Korea](https://yanwanz.github.io/EAL273/) 

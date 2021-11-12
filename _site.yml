@@ -16,6 +16,6 @@ navbar:
       href: research.html
     - text: "CV"
       href: CV_nov2021_YanwanZhu.pdf
-    - text: "Projects"
-      href: projects.html
+    - text: "Misc"
+      href: misc.html
 output: distill::distill_article
