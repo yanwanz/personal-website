@@ -1,4 +1,4 @@
-name: "website"
+#name: "website"
 title: "Yanwan Zhu"
 theme: theme.css
 output_dir: "docs"

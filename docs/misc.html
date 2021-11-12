@@ -108,7 +108,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Miscellaneous"]},{"type":"character","attributes":{},"value":["Things I do/did when I'm not thinking about research"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Miscellaneous"]},{"type":"character","attributes":{},"value":["Things I do/did when I'm not thinking about research"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2127,7 +2127,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css2?family=Jost');
   @import url('https://fonts.googleapis.com/css2?family=Kanit');
 
-
   html {
     /*-- Main font sizes --*/
     --title-size:      50px;
@@ -2144,7 +2143,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /*-- Specify custom fonts ~~~ must be imported above   --*/
     --heading-font:    'Kanit', sans-serif;        /* edited */
     --mono-font:       monospace;
-    --body-font:       'Jost', serif;             /* edited */
+    --body-font:       'Jost', 'Kai', serif;             /* edited */
     --navbar-font:     'Kanit', sans-serif;        /* edited */
   }
 
@@ -2432,6 +2431,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#archive-of-non-research-projects">Archive of non-research projects</a></li>
+<li><a href="#music">Music</a></li>
+</ul>
+</nav>
+</div>
+<h3 id="archive-of-non-research-projects">Archive of non-research projects</h3>
+<p><strong>Final project for EAL 273</strong>: <a href="https://yanwanz.github.io/EAL273/">A wiki-style article on women and video gaming in South Korea</a></p>
 <h3 id="music">Music</h3>
 <p><strong>An album that I really enjoy</strong>:<br />
 <em>Purple Snow: Forecasting The Minneapolis Sound</em> (<a href="https://open.spotify.com/album/2K3fMtFPxmlSF6FvUFbAVW">Spotify</a>)</p>
@@ -2439,8 +2449,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <iframe src="https://purplesnow.bandcamp.com/album/purple-snow-forecasting-the-minneapolis-sound" width="624" height="400px">
 </iframe>
 </div>
-<h3 id="archive-of-non-research-projects">Archive of non-research projects</h3>
-<p><strong>Final project for EAL 273</strong>: <a href="https://yanwanz.github.io/EAL273/">A wiki-style article on women and video gaming in South Korea</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

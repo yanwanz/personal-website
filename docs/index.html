@@ -2124,7 +2124,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css2?family=Jost');
   @import url('https://fonts.googleapis.com/css2?family=Kanit');
 
-
   html {
     /*-- Main font sizes --*/
     --title-size:      50px;
@@ -2141,7 +2140,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /*-- Specify custom fonts ~~~ must be imported above   --*/
     --heading-font:    'Kanit', sans-serif;        /* edited */
     --mono-font:       monospace;
-    --body-font:       'Jost', serif;             /* edited */
+    --body-font:       'Jost', 'Kai', serif;             /* edited */
     --navbar-font:     'Kanit', sans-serif;        /* edited */
   }
 
@@ -2429,14 +2428,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<div class="floating">
 <h3 id="about-me">About me</h3>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/yz_profile.jpg" width="30%" style="float:right; padding:30px" /></p>
+</div>
 <p>Hi! I’m a first year PhD student in the <a href="https://www.brown.edu/academics/cognitive-linguistic-psychological-sciences/home">Department of Cognitive, Linguistic and Psychological Sciences</a> at <a href="https://www.brown.edu/">Brown University</a>. I’m interested in understanding how children and adults represent - or learn to represent - complex meanings in their mind. At Brown, I’m advised by <a href="https://www.brown.edu/academics/cognitive-linguistic-psychological-sciences/people/faculty/roman-feiman">Roman Feiman</a> and affiliated with the <a href="https://sites.brown.edu/bltlab/">BLT lab</a>.</p>
-<p>Before coming to Brown, I was an undergraduate studying Linguistics and <a href="https://twitter.com/smithcollegesds">Statistical &amp; Data Sciences</a> at <a href="https://www.smith.edu/">Smith College</a>. I mainly worked with <a href="https://www.smith.edu/academics/faculty/jill-de-villiers">Jill de Villiers</a> on language acquisition and assessment.</p>
+<p>Before coming to Brown, I was an undergraduate studying Linguistics and <a href="https://twitter.com/smithcollegesds">Statistical &amp; Data Sciences</a> at <a href="https://www.smith.edu/">Smith College</a>. At Smith, I worked with <a href="https://www.smith.edu/academics/faculty/jill-de-villiers">Jill de Villiers</a> on language acquisition and assessment.</p>
 <h3 id="about-my-name">About my name</h3>
 <ul>
-<li><p><a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">IPA</a>: /<span class="math inline">\(jɛnwan \; ʈʂu\)</span>/</p></li>
-<li><p>All segments in my first name exist in English and my last name is similar to the first syllable of <em>juice</em> ( /<span class="math inline">\(ʤuː\)</span>/).</p></li>
+<li><p><a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">IPA</a>: /<span class="math inline">\(jɛnwan \; ʈʂu\)</span>/</p>
+<ul>
+<li>All segments in my first name exist in English</li>
+<li>My last name is similar to the first syllable of <em>juice</em> ( /<span class="math inline">\(ʤuː\)</span>/).</li>
+</ul></li>
+<li><p>Chinese: 朱燕婉</p></li>
 </ul>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
