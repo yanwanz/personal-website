@@ -1,5 +1,6 @@
 ---
 title: "Miscellaneous"
+favicon: images/wug.png
 description: Things I do/did when I'm not thinking about research
 output:
   distill::distill_article:

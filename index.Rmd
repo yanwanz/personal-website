@@ -1,5 +1,6 @@
 ---
 title: "Yanwan Zhu"
+favicon: images/wug.png
 site: distill::distill_website
 ---
 
