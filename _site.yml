@@ -1,6 +1,7 @@
 #name: "website"
 title: "Yanwan Zhu"
 theme: theme.css
+favicon: wug.png
 output_dir: "docs"
 navbar:
   left:

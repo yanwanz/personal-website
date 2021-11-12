@@ -36,7 +36,7 @@ vignettes/*.pdf
 *.knit.md
 
 # Images
-images/*
+images/
 
 # PDF files
 *.pdf
