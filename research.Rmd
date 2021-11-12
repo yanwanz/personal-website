@@ -1,11 +1,24 @@
 ---
 title: "Research"
 description: |
-output: distill::distill_article
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
 This site is still under construction...
+
+<<<<<<< HEAD
+=======
+### Curriculum Vitae
+
+[Click to view my CV (Nov 2021)](https://www.dropbox.com/s/moz5er18sdt1ndw/CV_nov2021_YanwanZhu.pdf?dl=0)
+
+>>>>>>> main
+
