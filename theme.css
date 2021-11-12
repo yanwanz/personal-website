@@ -63,7 +63,7 @@ d-appendix {
   --text-color:       #000;                     /* edited */
   --text-size:        15px;
   --hover-color:      #39ff14;                  /* edited */
-  --bkgd-color:       #fff;                     /* edited */
+  --bkgd-color:       #FBFBFB;                     /* edited */
 }
 
 .distill-site-footer {
@@ -99,4 +99,8 @@ html, body, p {
 ul > li::marker {
     font-weight: 700;
     font-size: 1.125em;
+}
+
+body {
+  background-color: #FBFBFB;
 }

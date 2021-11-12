@@ -38,4 +38,7 @@ vignettes/*.pdf
 # Images
 images/*
 
+# PDF files
+*.pdf
+
 .DS_Store
