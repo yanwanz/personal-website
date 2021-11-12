@@ -1,10 +1,11 @@
 name: "website"
 title: "Yanwan Zhu"
 theme: theme.css
-description: |
-  Yanwan Zhu
 output_dir: "docs"
 navbar:
+  left:
+    - icon: fab fa-github
+      href: https://github.com/yanwanz
   right:
     - text: "Home"
       href: index.html

@@ -7,4 +7,7 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This site is still under construction...
+## ongoing projects
+
+## past projects
+
