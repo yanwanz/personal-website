@@ -11,12 +11,12 @@ navbar:
       href: mailto:yanwan_zhu@brown.edu
 
   right:
-    - text: "Home"
+    - text: "home"
       href: index.html
-    - text: "Research"
+    - text: "research"
       href: research.html
-    - text: "CV"
+    - text: "cv"
       href: CV_nov2021_YanwanZhu.pdf
-    - text: "Misc"
+    - text: "misc"
       href: misc.html
 output: distill::distill_article

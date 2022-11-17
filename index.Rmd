@@ -17,17 +17,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ::: {.floating}
 
-### About me
-
 ```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:30px"'}
 knitr::include_graphics("images/yz_profile.jpg")
 ```
 
-Hi! I'm a first year PhD student in the [Department of Cognitive, Linguistic and Psychological Sciences](https://www.brown.edu/academics/cognitive-linguistic-psychological-sciences/home) at [Brown University](https://www.brown.edu/). I'm interested in understanding how children and adults represent - or learn to represent - complex meanings in their mind. At Brown, I'm advised by [Roman Feiman](https://www.brown.edu/academics/cognitive-linguistic-psychological-sciences/people/faculty/roman-feiman) and affiliated with the [BLT lab](https://sites.brown.edu/bltlab/). 
+Hi! I'm a second year PhD student in the [Department of Cognitive, Linguistic and Psychological Sciences](https://www.brown.edu/academics/cognitive-linguistic-psychological-sciences/home) at [Brown University](https://www.brown.edu/). I'm interested in understanding how children and adults represent - or learn to represent - complex meanings in their mind. At Brown, I'm advised by [Roman Feiman](https://www.brown.edu/academics/cognitive-linguistic-psychological-sciences/people/faculty/roman-feiman) and affiliated with the [BLT lab](https://sites.brown.edu/bltlab/). 
 
 Before coming to Brown, I was an undergraduate studying Linguistics and [Statistical & Data Sciences](https://twitter.com/smithcollegesds) at [Smith College](https://www.smith.edu/). At Smith, I worked with [Jill de Villiers](https://www.smith.edu/academics/faculty/jill-de-villiers) on language acquisition and assessment.
 
-### About my name
+### My name
 
 - [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet): /$jɛnwan \; ʈʂu$/
 

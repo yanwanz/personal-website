@@ -12,6 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost');
 @import url('https://fonts.googleapis.com/css2?family=Kanit');
 @import url('https://fonts.googleapis.com/css2?family=Alata');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans');
 
 html {
   /*-- Main font sizes --*/
@@ -29,8 +30,8 @@ html {
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    'Alata', sans-serif;        /* edited */
   --mono-font:       monospace;
-  --body-font:       'Jost', 'Kai', serif;             /* edited */
-  --navbar-font:     'Kanit', sans-serif;        /* edited */
+  --body-font:       'Quattrocento Sans', 'Kai', serif;             /* edited */
+  --navbar-font:     'Jost', sans-serif;        /* edited */
 }
 
 /*-- ARTICLE METADATA --*/
@@ -85,19 +86,18 @@ p a:hover  {
 }
 
 /* Change appearance of headers */
-h1, h2, h3, h4, h5 {
-    font-weight: 700;
+h1, h2 {
+    font-weight: 500;
+    font-family: Quattrocento Sans;
 }
 
-/* Use specific font in the body of the text */
-html, body, p {
-    font-weight: 200;
-    /*line-height: 1.3rem; */
-    /*font-style: normal;*/
+h3, h4, h5 {
+    font-weight: normal;
+    font-family: Quattrocento Sans;
 }
 
 ul > li::marker {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.125em;
 }
 
