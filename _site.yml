@@ -10,7 +10,8 @@ navbar:
     - icon: fas fa-envelope
       href: mailto:yanwan_zhu@brown.edu
     - icon: fab fa-mastodon
-      href: https://fediphilosophy.org/web/@yanwanz
+      rel: me
+      href: https://fediphilosophy.org/@yanwanz
 
   right:
     - text: "home"
