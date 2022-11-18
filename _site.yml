@@ -9,6 +9,8 @@ navbar:
       href: https://github.com/yanwanz
     - icon: fas fa-envelope
       href: mailto:yanwan_zhu@brown.edu
+    - icon: fab fa-mastodon
+      href: https://fediphilosophy.org/web/@yanwanz
 
   right:
     - text: "home"
