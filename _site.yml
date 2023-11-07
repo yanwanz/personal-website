@@ -12,6 +12,8 @@ navbar:
     - icon: fab fa-mastodon
       rel: me
       href: https://fediphilosophy.org/@yanwanz
+    - icon: fa-square
+      href: https://bsky.app/profile/yanwan.bsky.social
 
   right:
     - text: "home"
@@ -19,7 +21,7 @@ navbar:
     - text: "research"
       href: research.html
     - text: "cv"
-      href: CV_nov2021_YanwanZhu.pdf
+      href: CV_YanwanZhu.pdf
     - text: "misc"
       href: misc.html
 output: distill::distill_article
